@@ -1,0 +1,38 @@
+body
+{
+	
+	background-image: url("https://wallpaperscraft.com/image/cube_fire_dark_light_alloy_36536_1366x768.jpg");
+	background-size: cover;
+}
+.text
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+h1{
+	margin: 200px;
+	color: white;
+    font-family: fantasy;
+    text-align: center;
+    height: 100%;
+    transition: all 0.5s;
+}
+.btn{
+	margin: auto;
+	display: block;
+	text-transform: uppercase;
+	background-color: orange;
+	border-color: #550000;
+	transition: all 0.5s;
+}
+.btn:hover{
+	background-color: #803515;
+	border-color: #551900;
+	cursor: pointer;
+	transform: scale(1.1);
+}
+h1:hover{
+	transform: scale(1.1);
+	
+}
